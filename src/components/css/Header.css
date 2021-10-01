@@ -1,0 +1,51 @@
+.header{
+  height: 15vh;
+  background: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.header__input{
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid orangered;
+  height: 40px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.header__input input{
+  border: none;
+  outline: none;
+  flex: 1;
+  height: 100%;
+  padding: .2rem 1rem;
+}
+
+.header__input .search{
+  /*border: 1px solid #212121;*/
+  padding: 0 1rem;
+  cursor: pointer;
+  height: 100%;
+}
+
+.header__buttons{
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login,.sign_up{
+  height: 100%;
+  padding: .5rem .7rem;
+  cursor: pointer;
+}
+
+.header__buttons .login{
+  margin-right: .5rem;
+}
