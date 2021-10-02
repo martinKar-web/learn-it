@@ -1,7 +1,7 @@
 import React from 'react';
 import './css/Header.css';
-import SearchIcon from '@material-ui/icons/Search';
-//import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 const Header = () => {
   return (
@@ -11,12 +11,12 @@ const Header = () => {
       </div>
       <div className="header__input">
         <input type="text" placeholder="Search" />
-        <SearchIcon className="search" />
+        <SearchOutlinedIcon className="search" />
       </div>
       <div className="header__buttons">
+        <ShoppingCartOutlinedIcon className='shopping_cart' />
         <button className="login">Log In</button>
         <button className="sign_up">Sign Up</button>
-        {/*<ShoppingCartIcon/>*/}
       </div>
     </div>
   );

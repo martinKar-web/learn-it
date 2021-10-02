@@ -31,10 +31,10 @@
   padding: 0 1rem;
   cursor: pointer;
   height: 100%;
+  font-size: 1.8rem !important;
 }
 
 .header__buttons{
-  border: 1px solid red;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -43,6 +43,12 @@
 .login,.sign_up{
   height: 100%;
   padding: .5rem .7rem;
+  cursor: pointer;
+}
+
+.shopping_cart{
+  margin-right: 0.6rem !important;
+  font-size: 1.7rem !important;
   cursor: pointer;
 }
 
